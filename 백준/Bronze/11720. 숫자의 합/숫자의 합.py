@@ -1,8 +1,5 @@
-a = int(input())
-b = list(map(int, input()))
-result = 0
+cnt = int(input())
+temp = list(map(int, input()))
 
-for i in range(a):
-    result += b[i]
-
-print(result)
+if(cnt == len(temp)):
+    print(sum(temp))
